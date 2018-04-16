@@ -20,7 +20,7 @@
       verbs: ["get", "watch", "list","create","post","update","patch"]
     - apiGroups: [""]
       resources: ["events"]
-      verbs: ["get", "watch", "list","update"]
+      verbs: ["get", "watch", "list","update","patch"]
  -  kind: ClusterRoleBinding
     apiVersion: rbac.authorization.k8s.io/v1beta1
     metadata:
