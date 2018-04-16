@@ -18,6 +18,9 @@
     - apiGroups: ["extensions"]
       resources: ["deployments"]
       verbs: ["get", "watch", "list","create","post","update","patch"]
+    - apiGroups: [""]
+      resources: ["events"]
+      verbs: ["get", "watch", "list","update"]
  -  kind: ClusterRoleBinding
     apiVersion: rbac.authorization.k8s.io/v1beta1
     metadata:
